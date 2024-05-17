@@ -231,6 +231,11 @@ footer p:last-child {
   font-weight: 700;
 }
 
+.all-the-projects .ps {
+  text-align: center;
+  font-weight: bold;
+}
+
 .project-wrapper {
   clear: both;
 }
@@ -250,6 +255,8 @@ footer p:last-child {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: bold;
+  font-size: medium;
 }
 
 .projectl .text {
@@ -262,5 +269,5 @@ footer p:last-child {
 
 .projectl .project-image {
   text-align: right;
-  max-width: 25%;
+  max-width: 23%;
 }
