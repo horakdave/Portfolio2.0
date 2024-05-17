@@ -271,3 +271,8 @@ footer p:last-child {
   text-align: right;
   max-width: 23%;
 }
+
+.projectl .project-image-s {
+  text-align: right;
+  max-width: 45%;
+}
