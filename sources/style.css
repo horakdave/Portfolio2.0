@@ -1,7 +1,7 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .hero {
@@ -13,7 +13,7 @@ body {
   text-align: center;
   color: #333;
   border-radius: 10px;
-  max-width: 725px;
+  max-width: 825px;
   margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ body {
   text-align: center;
   color: #333;
   border-radius: 10px;
-  max-width: 725px;
+  max-width: 825px;
   margin: 0 auto;
 }
 
@@ -69,6 +69,26 @@ body {
   font-weight: 700;
   font-size: 3em;
   margin-bottom: 20px;
+}
+
+.kontakty h2 {
+  background: linear-gradient(to right, #ffc46c, #FFC700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kontakty li {
+  font-weight: bold;
+}
+
+.neco-o-mne h2 {
+  background: linear-gradient(to right, #FD3470, #FF3E3E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.neco-o-mne p {
+  font-weight: bold;
 }
 
 header h1 {
@@ -211,9 +231,15 @@ footer p:last-child {
   font-weight: 700;
 }
 
+.project-wrapper {
+  clear: both;
+}
+
 .projectl {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  margin-bottom: 20px;
+  clear: both;
+  justify-content: space-between;
 }
 
 .projectl h2 {
@@ -223,6 +249,7 @@ footer p:last-child {
 .projectl .content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .projectl .text {
