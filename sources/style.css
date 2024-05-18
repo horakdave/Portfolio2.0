@@ -289,6 +289,11 @@ footer p:last-child {
   max-width: 45%;
 }
 
+.projectl .project-image-b {
+  text-align: right;
+  max-width: 18%;
+}
+
 .projectl .project-image-stupid {
   text-align: right;
   max-width: 28%;
