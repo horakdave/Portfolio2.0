@@ -320,3 +320,32 @@ footer p:last-child {
   text-align: right;
   max-width: 28%;
 }
+
+/* CSS for mobile devices */
+@media only screen and (max-width: 600px) {
+  main {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .left-column, .right-column {
+      width: 100%;
+  }
+
+  .right-column {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .skills {
+      order: -1; /* Move skills section to the top */
+  }
+
+  .kontakty {
+      order: 0; /* Ensure kontakty section is below skills */
+  }
+
+  .neco-o-mne {
+      order: 1; /* Ensure neco-o-mne section is below kontakty */
+  }
+}
