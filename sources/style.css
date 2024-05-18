@@ -4,6 +4,28 @@ body {
   max-width: 900px;
 }
 
+.domov-button {
+  position: fixed;
+  top: -9px;
+  right: 1100px;
+  background-color: #ffffff;
+  color: black;
+  border: 3px solid black !important;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.domov-button a {
+  top: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 .hero {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 700;
