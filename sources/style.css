@@ -357,4 +357,17 @@ footer p:last-child {
   .hero-no-color {
     max-width: 325;
   }
+
+  .domov-button {
+    top: -9px;
+    right: 50px;
+    background-color: #ffffff;
+    color: black;
+    border: 3px solid black !important;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1000;
+  }
 }
