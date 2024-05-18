@@ -6,7 +6,7 @@ body {
 
 .domov-button {
   position: fixed;
-  top: -9px;
+  top: -6px;
   right: 1100px;
   background-color: #ffffff;
   color: black;
@@ -360,7 +360,7 @@ footer p:last-child {
   }
 
   .domov-button {
-    top: -9px;
+    top: -5px;
     right: 50px;
     background-color: #ffffff;
     color: black;
