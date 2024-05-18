@@ -13,7 +13,7 @@ body {
   border: 3px solid black !important;
   padding: 5px 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 0px 0px 12px 12px;
   cursor: pointer;
   z-index: 1000;
   height: 35px;
@@ -367,7 +367,7 @@ footer p:last-child {
     border: 3px solid black !important;
     padding: 5px 10px;
     border: none;
-    border-radius: 12px;
+    border-radius: 0px 0px 12px 12px;
     cursor: pointer;
     z-index: 1000;
     height: 40px;
