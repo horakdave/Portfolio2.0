@@ -12,7 +12,7 @@ body {
   padding: 100px 20px;
   text-align: center;
   color: #333;
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 825px;
   margin: 0 auto;
 }
@@ -59,7 +59,7 @@ body {
   padding: 100px 20px;
   text-align: center;
   color: #333;
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 825px;
   margin: 0 auto;
 }
@@ -109,7 +109,7 @@ main {
 
 .left-column {
   width: 30%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .right-column {
@@ -117,7 +117,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 section {
@@ -125,7 +125,7 @@ section {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0px 0px 40px 5px rgba(221, 221, 221, 0.47);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 h1, h2 {
@@ -170,7 +170,7 @@ footer p:last-child {
 .skills {
   color: #333;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 
@@ -236,6 +236,12 @@ footer p:last-child {
   font-weight: bold;
 }
 
+.skills .ps {
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+}
+
 .project-wrapper {
   clear: both;
 }
@@ -263,6 +269,12 @@ footer p:last-child {
   flex: 1;
 }
 
+.projectl .text-stupid {
+  margin-left: 20px;
+  flex: 1;
+}
+
+
 .projectl .image-container {
   text-align: right;
 }
@@ -275,4 +287,9 @@ footer p:last-child {
 .projectl .project-image-s {
   text-align: right;
   max-width: 45%;
+}
+
+.projectl .project-image-stupid {
+  text-align: right;
+  max-width: 28%;
 }
