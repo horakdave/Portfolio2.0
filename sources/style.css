@@ -2,6 +2,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 20px auto;
   max-width: 900px;
+  background-color: #cfd3da;
 }
 
 .domov-button {
@@ -30,14 +31,15 @@ body {
 .hero {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 700;
-  background-color: #fff;
-  box-shadow: 0px 0px 40px 5px rgba(221, 221, 221, 0.47);
+  background-color: #e6e9ef;
   padding: 100px 20px;
   text-align: center;
   color: #333;
   border-radius: 20px;
   max-width: 825px;
   margin: 0 auto;
+  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
+              -8px -8px 16px rgba(255, 255, 255, 0.5);
 }
 
 .hero h1 {
@@ -77,14 +79,15 @@ body {
 .hero-no-color {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 700;
-  background-color: #fff;
-  box-shadow: 0px 0px 40px 5px rgba(221, 221, 221, 0.47);
+  background-color: #e6e9ef; /* Light grayish-blue background */
   padding: 100px 20px;
   text-align: center;
   color: #333;
   border-radius: 20px;
   max-width: 825px;
   margin: 0 auto;
+  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
+              -8px -8px 16px rgba(255, 255, 255, 0.5);
 }
 
 .hero-no-color h1 {
@@ -92,6 +95,28 @@ body {
   font-weight: 700;
   font-size: 3em;
   margin-bottom: 20px;
+}
+
+.fotka {
+  position: relative;
+  background-color: #e6e9ef;
+  display: inline-block;
+  border-radius: 20;
+  padding: 20px;
+  height: 200px;
+  width: 220px;
+}
+
+.fotka img {
+  width: 220px;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: darken;
+  background-color: transparent;
 }
 
 .kontakty h2 {
@@ -130,6 +155,15 @@ main {
   padding: 20px;
 }
 
+.skills, .kontakty, .neco-o-mne, .projectl {
+  background-color: #e6e9ef;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
+              -8px -8px 16px rgba(255, 255, 255, 0.5);
+}
+
 .left-column {
   width: 30%;
   border-radius: 20px;
@@ -144,10 +178,11 @@ main {
 }
 
 section {
-  background-color: #fff;
+  background-color: #e6e9ef;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0px 0px 40px 5px rgba(221, 221, 221, 0.47);
+  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
+              -8px -8px 16px rgba(255, 255, 255, 0.5);
   border-radius: 20px;
 }
 
@@ -216,11 +251,12 @@ footer p:last-child {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-  background-color: #fff;
+  background-color: #e6e9ef;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 8px rgba(163, 177, 198, 0.4), 
+              -4px -4px 8px rgba(255, 255, 255, 0.4);
   padding: 10px;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .skills li a {
@@ -232,7 +268,9 @@ footer p:last-child {
 }
 
 .skills li:hover {
-  transform: translateY(-5px);
+  transform: translateY(5px);
+  box-shadow: 2px 2px 4px rgba(163, 177, 198, 0.4), 
+              -2px -2px 4px rgba(255, 255, 255, 0.4);
 }
 
 .skills .icon {
