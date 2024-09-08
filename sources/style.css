@@ -104,7 +104,7 @@ body {
   border-radius: 20;
   padding: 20px;
   height: 200px;
-  width: 220px;
+  width: 85%;
 }
 
 .fotka img {
@@ -373,7 +373,7 @@ footer p:last-child {
     display: inline-block;
     border-radius: 20;
     padding: 20px;
-    width: 320px;
+    width: 89%;
   }
 
   .left-column, .right-column {
