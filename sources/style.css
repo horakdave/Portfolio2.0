@@ -367,6 +367,14 @@ footer p:last-child {
       flex-direction: column;
   }
 
+  .fotka {
+    position: relative;
+    background-color: #e6e9ef;
+    display: inline-block;
+    border-radius: 20;
+    padding: 20px;
+    width: 320px;
+  }
 
   .left-column, .right-column {
       width: 100%;
@@ -375,6 +383,10 @@ footer p:last-child {
   .right-column {
       display: flex;
       flex-direction: column;
+  }
+
+  .disclamer {
+    display: none;
   }
 
   .skills {
