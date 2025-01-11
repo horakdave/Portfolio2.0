@@ -2,7 +2,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 20px auto;
   max-width: 900px;
-  background-color: #cfd3da;
 }
 
 .domov-button {
@@ -31,15 +30,15 @@ body {
 .hero {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 700;
-  background-color: #e6e9ef;
+  background-color: #fff;
+  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6),
+              -8px -8px 16px rgba(255, 255, 255, 0.5);
   padding: 100px 20px;
   text-align: center;
   color: #333;
   border-radius: 20px;
   max-width: 825px;
   margin: 0 auto;
-  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
-              -8px -8px 16px rgba(255, 255, 255, 0.5);
 }
 
 .hero h1 {
@@ -79,15 +78,15 @@ body {
 .hero-no-color {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 700;
-  background-color: #e6e9ef; /* Light grayish-blue background */
+  background-color: #fff;
+    box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
+                -8px -8px 16px rgba(255, 255, 255, 0.5);
   padding: 100px 20px;
   text-align: center;
   color: #333;
   border-radius: 20px;
   max-width: 825px;
   margin: 0 auto;
-  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
-              -8px -8px 16px rgba(255, 255, 255, 0.5);
 }
 
 .hero-no-color h1 {
@@ -99,7 +98,7 @@ body {
 
 .fotka {
   position: relative;
-  background-color: #e6e9ef;
+  background-color: #fff;
   display: inline-block;
   border-radius: 20;
   padding: 20px;
@@ -156,7 +155,7 @@ main {
 }
 
 .skills, .kontakty, .neco-o-mne, .projectl {
-  background-color: #e6e9ef;
+  background-color: #fff;
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -178,7 +177,7 @@ main {
 }
 
 section {
-  background-color: #e6e9ef;
+  background-color: #fff;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), 
@@ -251,7 +250,7 @@ footer p:last-child {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-  background-color: #e6e9ef;
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 4px 4px 8px rgba(163, 177, 198, 0.4), 
               -4px -4px 8px rgba(255, 255, 255, 0.4);
@@ -369,7 +368,7 @@ footer p:last-child {
 
   .fotka {
     position: relative;
-    background-color: #e6e9ef;
+    background-color: #fff;
     display: inline-block;
     border-radius: 20;
     padding: 20px;
