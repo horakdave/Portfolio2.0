@@ -73,6 +73,7 @@ body {
 .hero-content {
   grid-column: span 12;
   text-align: center;
+  min-height: 150px;
 }
 
 .hero-no-color {
@@ -429,6 +430,8 @@ footer p:last-child {
     white-space: nowrap;
     margin: 0 auto;
     animation: typing 3.5s steps(40, end);
+    min-height: 1.2em;
+    display: block;
 }
 
 @keyframes typing {
