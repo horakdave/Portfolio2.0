@@ -47,6 +47,7 @@ body {
   font-size: 3em;
   margin-bottom: 20px;
   background: linear-gradient(to right, #00D1FF, #00FFB2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -121,6 +122,7 @@ body {
 
 .kontakty h2 {
   background: linear-gradient(to right, #ffc46c, #FFC700);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -131,6 +133,7 @@ body {
 
 .neco-o-mne h2 {
   background: linear-gradient(to right, #FD3470, #FF3E3E);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -235,6 +238,7 @@ footer p:last-child {
 .skills h2 {
   margin-top: 0;
   background: linear-gradient(to right, #9F5AF6, #1105A2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
