@@ -406,11 +406,13 @@ footer p:last-child {
   }
 
   .hero {
-    max-width: 325px;
+    max-width: 89%;
+    padding: 50px 20px;
   }
 
   .hero-no-color {
-    max-width: 325;
+    max-width: 89%;
+    padding: 50px 20px;
   }
 
   .domov-button {
