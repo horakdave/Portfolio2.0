@@ -275,22 +275,25 @@ footer p:last-child {
   color: inherit;
 }
 
-/* Specific styles for web projects button */
-.skills li a.web-projects {
-  flex-direction: column;
-  text-align: center;
+/* Styles for both web and hardware project buttons */
+.skills li a.web-projects,
+.skills li a.hardware-projects {
+    flex-direction: column;
+    text-align: center;
 }
 
-.skills li a.web-projects .icons-group {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
+.skills li a.web-projects .icons-group,
+.skills li a.hardware-projects .icons-group {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
-.skills li a.web-projects .label {
-  justify-content: center;
+.skills li a.web-projects .label,
+.skills li a.hardware-projects .label {
+    justify-content: center;
 }
 
 .skills li:hover {
