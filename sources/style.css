@@ -275,6 +275,24 @@ footer p:last-child {
   color: inherit;
 }
 
+/* Specific styles for web projects button */
+.skills li a.web-projects {
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills li a.web-projects .icons-group {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.skills li a.web-projects .label {
+  justify-content: center;
+}
+
 .skills li:hover {
   transform: translateY(5px);
   box-shadow: 2px 2px 4px rgba(163, 177, 198, 0.4), 
