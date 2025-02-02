@@ -4,6 +4,10 @@ body {
   max-width: 900px;
 }
 
+.disclamer {
+  display: none;
+}
+
 .domov-button {
   position: fixed;
   top: -6px;
