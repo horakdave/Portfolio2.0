@@ -1,6 +1,6 @@
 function setupTypingAnimation() {
     const texts = [
-        "Začínající Software Developer",
+        "Software Developer",
         "Student SPŠ na Proseku(zatím)",
         "Innovátor",
         "C++ Programátor",
