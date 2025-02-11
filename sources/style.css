@@ -308,6 +308,12 @@ footer p:last-child {
   margin-right: 10px;
 }
 
+/* Add this new style for the Inventor logo */
+.skills img[alt="Inventor Logo"] {
+  width: 71px;
+  height: 71px;
+}
+
 .skills .icon i {
   font-size: 1.2em;
 }
