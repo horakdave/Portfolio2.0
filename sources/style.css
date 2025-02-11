@@ -180,7 +180,6 @@ main {
   width: 65%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   border-radius: 20px;
 }
 
