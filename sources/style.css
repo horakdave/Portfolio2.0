@@ -5,10 +5,25 @@ body {
   background-color: #f5f5f5; 
 }
 
+.lang-button {
+  position: fixed;
+  top: -6px;
+  right: 90px;
+  background-color: #ffffff;
+  color: black;
+  border: 3px solid black !important;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 0px 0px 12px 12px;
+  cursor: pointer;
+  z-index: 1000;
+  height: 35px;
+}
+
 .domov-button {
   position: fixed;
   top: -6px;
-  right: 400px;
+  right: 75px;
   background-color: #ffffff;
   color: black;
   border: 3px solid black !important;
